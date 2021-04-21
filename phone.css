@@ -1,0 +1,61 @@
+.navbar{
+    flex-direction: column;
+}
+
+.navbar ul li a{
+    font-size: 1.4rem;
+    padding: 0px 10px;
+}
+.right{
+    left: 7px;
+}
+
+.sec p{
+    font-size: 13px;
+}
+.sec h2{
+    font-size: 2.8rem;
+}
+
+.services{
+    flex-direction: column;
+}
+#delivery{
+    width: 225px;
+}
+.clients{
+    flex-wrap: wrap;
+}
+
+
+#add, #message{
+    margin-left: 6px;
+
+}
+
+#mssg {
+    position: relative;
+    left: -2px;
+    top: -1px; 
+}
+
+#phno{
+    margin-right: -7px;
+}
+.fgrp input, .fgrp textarea {
+    width: 224px;
+    height: 18px;
+    border-radius: 20px;
+    padding: 8px 9px;
+    border-color: black;
+    text-align: center;
+}
+.fgrp button{
+    font-size: 19px;
+    padding: 8px 58px;
+}
+#btn {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 0px;
+}

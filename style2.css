@@ -1,0 +1,304 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navigation bar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.navbar::before {
+  content: "";
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.logo {
+  margin: -3px -7px;
+}
+.logo img {
+  width: 71px;
+  height: 65px;
+  margin: 12px 30px;
+}
+
+.navbar ul {
+  display: flex;
+}
+.item {
+  list-style: none;
+}
+.item a {
+  display: block;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 5px 20px;
+  margin: 0px 5px;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+.item a:hover {
+  color: rgb(238, 149, 46);
+  background-color: white;
+  border-radius: 20px;
+}
+#fa1 {
+  padding: 8px 8px;
+}
+#fa2 {
+  padding: 8px 3px;
+}
+#fa3 {
+  padding: 9px 3px;
+}
+.right {
+  position: relative;
+  left: 421px;
+  top: 4px;
+  display: inline-block;
+  /* border: 2px solid yellow; */
+  border-radius: 25px;
+}
+.btn {
+  border-radius: 25px;
+  border: 2px solid white;
+  border-color: black;
+  background-color: transparent;
+  color: rgb(32, 197, 82);
+}
+.btn:hover {
+  cursor: pointer;
+  color: rgb(238, 149, 46);
+  border-color:white;
+}
+.fa {
+  padding: 8px 16px;
+  margin: 0px 6px;
+}
+
+/* Section  */
+
+.sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 179px;
+}
+
+.sec::before {
+  background: url("rest.jpeg") no-repeat center center/cover;
+  content: "";
+
+  height: 503px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.93;
+  z-index: -1;
+}
+
+.sec h2 {
+  font-size: 67px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  margin-top: 100px;
+}
+
+.sec p {
+  font-family: "Shadows Int o Light", cursive;
+  font-weight: bold;
+  color: rgb(80 245 51);
+  height: 24px;
+}
+
+#but {
+  font-size: 1.16rem;
+  padding: 2px 8px;
+  margin: 12px;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  border-color: whitesmoke;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+}
+#but:hover {
+  background-color: white;
+  color: rgb(238, 149, 46);
+  cursor: pointer;
+}
+
+.services-container {
+  position: relative;
+  top: 180px;
+  text-align: center;
+  margin: 13px 0px;
+    margin-bottom: 26px;
+}
+.services {
+  display: flex;
+  margin: 20px;
+}
+.box1 {
+  border: 2px solid red;
+  padding: 34px;
+  margin: 3px 8px;
+  border-radius: 29px;
+  background-color: blanchedalmond;
+}
+.box1 h2{
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+.box1 p{
+  font-family: "Dancing Script", cursive;
+  font-size: 15px;
+}
+.box1 img {
+  height: 156px;
+}
+.heading{
+  font-size: 33px;
+    text-decoration: underline;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/* Client Section  */
+
+.clients-container{
+  position: relative;
+  top: 177px;
+  text-align: center;
+}
+
+
+
+.clients-container::before{
+  background: url('rest1.jpeg') no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  height: 108%;
+  z-index: -1;
+  opacity: 0.611;
+}
+
+.clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 5px;
+  }
+
+.clients img{
+  height: 84px;
+    width: 124px;
+    padding: 3px 20px;
+}
+
+  /* Contact-details */
+
+.contact-details{
+  position: relative;
+  top: 165px;
+  text-align: center;
+}
+
+
+.container{
+  padding-bottom:200px;
+}
+
+.container form{
+  margin-top: 20px;
+    padding: 10px;
+}
+
+
+.contact-details::before{
+  background: url(food1.jpeg) no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.89;
+  right: 0px;
+  
+}
+
+.fgrp{
+  padding: 9px;
+  margin: auto;
+  font-size: 1.3rem;
+  
+  font-family: 'Bangers', cursive;
+}
+.fgrp input, .fgrp textarea{
+  width: 574px;
+    height: 28px;
+  border-radius: 20px;
+  padding: 8px 9px;
+  border-color: black;
+  text-align: center;
+  
+}
+#mssg{
+  position: relative;
+  left: -309px;
+    top: 34px;
+}
+#add, #message{
+  margin-left: 63px;
+}
+#phno{
+  margin-right: 30px;
+}
+
+#btn{
+  margin-left: 61px;
+  display: inline-block;
+  padding: 0px;
+
+}
+.contact-details h2{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+
+
+.fgrp button{
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+  padding: 8px 135px;
+    margin-top: 8px;
+}
+
+.fgrp button:hover{
+  color:rgb(238, 149, 46);
+  background-color: white;
+  border-color: white;
+  cursor: pointer;
+  
+}
+
+footer{
+  background-color: black;
+  color: white;
+  position: relative;
+    bottom: 100px;
+}
